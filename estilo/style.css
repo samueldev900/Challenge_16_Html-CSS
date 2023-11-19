@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --cor0:hsl(179, 62%, 43%);
+    --cor1:hsl(71, 73%, 54%);
+    --cor2:hsl(204, 43%, 93%);
+    --cor3:hsl(218, 22%, 67%);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Karla', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 50px 0px;
+    background-color: var(--cor2);
+}
+main{
+    display: grid;
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+    color: white;
+}
+.allsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+    padding: 30px;
+}
+.item1{
+    color: var(--cor3);
+}
+.item1 p{
+    font-size: 15px;
+    line-height: 30px;
+}
+.item2{
+     height: 200px;
+    background-color: var(--cor0);
+}
+.item3{
+    background-color: #4BBEBD;
+}
+.item3 p{
+    width: 210px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.712);
+}
+h2{
+    font-size: 16pt;
+    color: var(--cor0);
+}
+.green-line{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--cor1);
+}
+.price{
+    font-size: 30px;
+    font-weight: 700;
+}
+.gray-word{
+    color: rgba(255, 255, 255, 0.575);
+}
+button{
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    color: white;
+    background-color: var(--cor1);
+    cursor: pointer;
+    transition: .2s;
+}
+button:hover{
+    scale: 1.05;
+    background-color:hsl(71, 98%, 65%);
+}
