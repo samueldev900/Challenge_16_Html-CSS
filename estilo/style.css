@@ -49,8 +49,12 @@ main{
     line-height: 30px;
 }
 .item2{
-     height: 200px;
+    height: 200px;
     background-color: var(--cor0);
+}
+.item2 p{
+    font-size: 20px;
+    font-weight: 400;
 }
 .item3{
     background-color: #4BBEBD;
@@ -90,4 +94,10 @@ button{
 button:hover{
     scale: 1.05;
     background-color:hsl(71, 98%, 65%);
+}
+.price2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
 }
